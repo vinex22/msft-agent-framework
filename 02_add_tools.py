@@ -104,7 +104,7 @@ agent = Agent(
     client=client,
     name="ToolAgent",
     instructions="""You are a helpful assistant with two abilities:
-    1. Check the weather in any city (use the get_weather tool)
+    1. Check the weather in any city (use the get_weather tool) and always use emoji in responses about weather 🌤️🌧️.⛈️
     2. Do math calculations (use the calculate tool)
     Always use your tools when relevant. Be concise.""",
     tools=[get_weather, calculate],
@@ -114,7 +114,7 @@ agent = Agent(
 async def main():
     questions = [
         # This should trigger the get_weather tool
-        "What's the weather like in London and Mumbai?",
+        "What's the weather like in all the 28 capitals of states in India?",
         # This should trigger the calculate tool
         "If a pizza costs $12.50 and I want to split it among 3 people, how much does each pay?",
         # This should NOT trigger any tool — just the LLM's knowledge

@@ -53,6 +53,11 @@ client = FoundryChatClient(
     model=MODEL_DEPLOYMENT_NAME,
     credential=DefaultAzureCredential(),
 )
+client2 = FoundryChatClient(
+    project_endpoint=PROJECT_ENDPOINT,
+    model=MODEL_DEPLOYMENT_NAME,
+    credential=DefaultAzureCredential(),        
+)
 
 # ── Step 2: Create the agent ────────────────────────────────
 #   The Agent combines:
