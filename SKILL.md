@@ -8,6 +8,14 @@
 .venv/
 SKILL.md          # This file — accumulated learnings
 test.py           # Scratch/utility script
+
+── Get-Started Tutorial (from MS docs) ──
+01_first_agent.py   # Lesson 1: Create agent, run, stream
+02_add_tools.py     # Lesson 2: @tool decorator, function tools
+03_multi_turn.py    # Lesson 3: Sessions for conversation memory
+04_memory.py        # Lesson 4: ContextProvider for persistent facts
+05_workflows.py     # Lesson 5: Executor pipelines (no LLM needed)
+06_hosting.py       # Lesson 6: DevUI web hosting
 ```
 
 ## Agent Types
