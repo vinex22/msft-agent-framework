@@ -1,0 +1,6 @@
+agent-framework
+agent-framework-devui
+azure-identity
+azure-ai-projects
+python-dotenv
+pydantic
